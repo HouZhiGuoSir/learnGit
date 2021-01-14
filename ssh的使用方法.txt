@@ -5,3 +5,4 @@ ssh-keygen -t rsa
 id_rsa 是私钥
 id_rsa.pub 是公钥
  讲公钥添加到git设置中的ssh公钥中就ok了
+ $ git remote rm origin  删除远程git仓库
